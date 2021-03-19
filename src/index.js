@@ -27,7 +27,6 @@ const { BytesToFile } = (() => {
         _options.autoClose = options.autoClose;
         _options.emitClose = options.emitClose;
         _options.start = options.start;
-        _options.end = options.end;
         _options.highWaterMark = options.highWaterMark;
 
         /** @type {_BytesToFile}  */
